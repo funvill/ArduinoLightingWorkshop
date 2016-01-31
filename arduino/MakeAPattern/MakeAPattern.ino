@@ -10,8 +10,11 @@ void setup() {
 }
 
 void loop() {
-  for( int pixel = 0; pixel < strip.numPixels(); pixel++ ) {
-     strip.setPixelColor(pixel, strip.Color(0,150,0)); // Moderately bright green color.
+  // Instead of incrementing the for loop by 1, increment by 3
+  for( int pixel = 0; pixel < strip.numPixels(); pixel +=3 ) { 
+     strip.setPixelColor(pixel  , strip.Color(150,0,0)); // bright red color.
+     strip.setPixelColor(pixel+1, strip.Color(0,150,0)); // bright green color.
+     strip.setPixelColor(pixel+2, strip.Color(0,0,150)); // bright blue color.
   }
   strip.show(); // This sends the updated pixel color to the hardware.
 }
