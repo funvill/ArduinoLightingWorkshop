@@ -1,7 +1,0 @@
-Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
-
-VR2        PCB-3yfbg5qgmic6c05pdvzs-1   1681.378mil   2844.291mil   1681.378mil   2844.291mil   1681.378mil   2647.441mil  T         90.00 Green 10k      
-VR1        PCB-3yfbg5qgmic6c05pdvzs-1   1692.913mil   1771.653mil   1692.913mil   1771.653mil   1692.913mil   1574.803mil  T         90.00 Red 10k        
-VR3        PCB-3yfbg5qgmic6c05pdvzs-1   1681.378mil   3907.284mil   1681.378mil   3907.284mil   1681.378mil   3710.433mil  T         90.00 Blue 10k       
-J1         PCB-e3d7edbgjzh0cudui8h6-1   1729.134mil   1200.787mil   1929.134mil   1200.787mil   1929.134mil   1200.787mil  T        180.00                
-
